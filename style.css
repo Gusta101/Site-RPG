@@ -1,0 +1,63 @@
+/* BARRA DE NAVEGAÇÃO */
+#nav-inic, #footer-inic {
+    background-color: rgb(167, 142, 0);
+}
+
+#nav-osni, #footer-osni {
+    background-color:rgb(0, 122, 87);
+}
+
+#nav-opd, #footer-opd {
+    background-color: rgb(134, 0, 0);
+}
+
+nav, footer {
+    color: white;
+}
+
+/* AUMENTA E CONFIGURA O TAMANHO DA FONTE */
+h1 {
+    font-weight: bolder;
+    font-size: 50px;
+}
+
+h3 {
+    font-weight: 700;
+    text-align: center;
+}
+
+#maior {
+    font-size: 35px;
+    text-align: center;
+}
+
+/* CONFIGURAÇÃO DE CAROUSEL */
+#carousel-item {
+    height: auto;
+    max-height: 60vh;
+}
+
+#carousel-inner {
+    height: 50vh;
+}
+
+.card {    /* IGUALA O TAMANHO DOS CARDS */
+    height: 100%;
+}
+
+img#adjust-size-w {   /* AJUSTA O TAMANHO MAX DA IMAGEM - PELA LARGURA */
+    max-width: 100%;
+    max-height: auto;
+}
+
+img#adjust-size-h {   /* AJUSTA O TAMANHO MAX DA IMAGEM - PELA ALTURA */
+    max-width: auto;
+    max-height: 100%;
+}
+
+body#pag-opd {   /* BACKGROUND ELEMENTOS - PAG OPD */
+    background-image: url(imgs/pag3/bg-elements.jfif);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
